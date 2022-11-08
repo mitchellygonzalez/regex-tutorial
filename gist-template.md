@@ -24,6 +24,12 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors assert that the engine's current position in the string matches a specific location. They don't match a character persay, but rather match a position before or after certain characters. It is also very efficient. If you tell the engine that you would like to find a complex pattern in a specific location, it does not spend time looking elsewhere, it will simply look in that location. 
+
+- Examples of anchor characters
+    - ^ matches the beginning of the text 
+    - $ matches the end of the text
+
 ### Quantifiers
 
 ### OR Operator
