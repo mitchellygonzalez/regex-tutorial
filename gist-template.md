@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# //Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+//Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+//Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 ## Table of Contents
 
@@ -106,9 +106,14 @@ Boundaries match a position referred to as a "word boundary. Word boundaries can
 
 
 ### Back-references
+Back-referencing 
+
 
 ### Look-ahead and Look-behind
+//
+
 
 ## Author
+My name is Mitchel Y. Gonzalez, I'm a student at the Columbia University Coding bootcamp. If you have any questions about this gist, you may email me at mitchellygonzalez@gmail.com. 
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My Github is https://github.com/mitchellygonzalez
