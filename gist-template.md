@@ -1,9 +1,12 @@
-# //Title (replace with your title)
-Below you'll find an explanation to a specific regex. In addition, I have provided the definitions and some examples of different regex components that you may refer back to as needed. Some are not utilized in the specific regex I will be referring to, but serve to help you gain a better understanding of Javascript regular expressions (aka - regex).
+# Regex Tutorial
+Below you'll find an explanation to a specific regex. In addition, I have provided the definitions and some examples of different regex components that you may refer back to as needed. Some are not utilized in the specific regex I will be referring to, but serve to help you gain a better understanding of Javascript regular expressions aka regex.
 
 ## Summary
+A regular expression, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions may be used to find specific patterns of characters within a string, or rather, to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
 
-//Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
+
+Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 ## Table of Contents
 
@@ -18,6 +21,7 @@ Below you'll find an explanation to a specific regex. In addition, I have provid
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
