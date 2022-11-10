@@ -1,6 +1,5 @@
 # //Title (replace with your title)
-
-//Introductory paragraph (replace this with your text)
+Below you'll find an explanation to a specific regex. In addition, I have provided the definitions and some examples of different regex components that you may refer back to as needed. Some are not utilized in the specific regex I will be referring to, but serve to help you gain a better understanding of Javascript regular expressions (aka - regex).
 
 ## Summary
 
@@ -106,14 +105,27 @@ Boundaries match a position referred to as a "word boundary. Word boundaries can
 
 
 ### Back-references
-Back-referencing 
+Back-references refer to a previous part of the matched regular expression. It includs a \ and a single digit.
+- Example:
+    - \1 is an example of a back-reference. This would back reference to to the first group.
+    - $1 is another backreference example, it is the same as using the previous example \1.
+    - \2 and $2 would both refer back to the second captured group.
 
 
 ### Look-ahead and Look-behind
-//
+Below are examples of positive and negative look-aheads:
+- Positive lookahead: it will match 'x' when followed by 'y'
+    - Example: x(?=y)
+- Negative lookahead: it will match 'x' when it's not followed by 'y'
+    - Example: x(?=!y)
 
+Below are examples of positive and negative look-behinds:
+- Positive lookbehind: it will consider the same pattern as a positive lookahead, however the pattern will be considered after the matching part.
+    - Example: x(?<=y)
+- Negative lookbehind: it will consider the same pattern as a negative lookahead, however the pattern will be considered before the matching part.
+    - Example: x(?<!y)
 
 ## Author
-My name is Mitchel Y. Gonzalez, I'm a student at the Columbia University Coding bootcamp. If you have any questions about this gist, you may email me at mitchellygonzalez@gmail.com. 
+My name is Mitchell Y. Gonzalez, I'm a student at the Columbia University Coding bootcamp. If you have any questions about this gist, you may email me at mitchellygonzalez@gmail.com. 
 
 My Github is https://github.com/mitchellygonzalez
