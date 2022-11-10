@@ -4,9 +4,14 @@ Below you'll find an explanation to a specific regex. In addition, I have provid
 ## Summary
 A regular expression, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions may be used to find specific patterns of characters within a string, or rather, to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
 
-
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex I will we explaning in here is: 
+ `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+- ^ is an anchor that represents the beginning of the string or a line and $ is an anchor that represents the end of a string or line. These are indicators that help ensure we're matching from beginning to end of the expression. 
+-  ?, {3}, and {6} are quantifiers. ? implies a match of the preceding character being 0 or 1 times. Here the ? means that it is optional for the # to be present. Therefore, considering it a lazy quantifier. The {3} and {6} here imply that the preciding characters must be repeated that number of times, such as 3 and 6 number of times, respectively.
+- | is an OR operator being used. This indicates that there are two alternatives, that on the right of the OR symboland that on the left of the OR symbol. 
+- [a-f0-9] means that the character class will match a lowercase letter between a and f, and a single digit in the range between 0 and 9. 
+- The enclosed parentheses () group a regular expression. There is a big group inside of it, ([a-f0-9]{6}|[a-f0-9]{3}) and therefore grouping together other regex inside of it, such as [a-f0-9] being repeated 6 times or [a-f0-9] being repeated 3 times. 
+- The brackets around [a-f0-9] indicate what will be the point of reference to which the refex will use for pattern matching. 
 
 ## Table of Contents
 
@@ -56,10 +61,10 @@ A common example of an OR operator is the | symbol. This tells the regex engine 
 ### Character Classes
 This tells the engine to match as little as one character by simply placing the desired characters inside of a bracket, and utilizing a - character inside the bracket to indicate a range. We may also incorporate more than one range. The order does not matter. 
 - Examples:
-    - [0-5] -  0 through 5
-    - [5-9] -  5 through 9
-    - [a-c] -  a through c
-    - [0-5a-c] - a hexadecimal digit
+    - [0-9] -  0 through 9
+    - [a-f] -  a through f lower-case
+    - [A-F] - A through F capitalized
+
 - Character classes themselves...
     - ^ searches for anything not within the set
     - - a dash sets a range
