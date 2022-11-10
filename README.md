@@ -1,19 +1,8 @@
 # Regex-Tutorial
 
-Matching a Hex Value – /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
-
-Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-Matching a URL – /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
-
-Matching an HTML Tag – /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
-
-
-# regex-tutorial
-#### Github link:  https://github.com/mitchellygonzalez/regex-tutorial
+### Github link:  https://github.com/mitchellygonzalez/regex-tutorial
 
 ## Table of Contents
-//
 * [Description](#description)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
@@ -25,7 +14,7 @@ Matching an HTML Tag – /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
  
 ## Description
 A regular expression, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions may be used to find specific patterns of characters within a string, or rather, to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
-In this gist you'll find an explanation to a specific regex. In addition, I have provided the definitions and some examples of different regex components that you may refer back to as needed. Some are not utilized in the specific regex I will be referring to, but serve to help you gain a better understanding of Javascript regular expressions (aka - regex).
+In this gist you'll find an explanation to a specific regex. In addition, I have provided the definitions and some examples of different regex components that you may refer back to as needed. Some are not utilized in the specific regex I will be referring to, but serve to help you gain a better understanding of Javascript regular expressions, aka regex.
 
 
 ## User Story
